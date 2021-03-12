@@ -1,0 +1,278 @@
+body {
+  font-family: "Fascinate", cursive;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.textCent {
+  text-align: center;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.justEnd {
+  justify-content: end;
+}
+
+.alignEnd {
+  align-items: flex-end;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.spaceAround {
+  justify-content: space-around;
+}
+
+.alignEven{
+  align-items: space-evenly;
+}
+
+.cont90 {
+  width: 90%;
+  margin: auto;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100{
+  height: 100%;
+}
+
+.textEnd {
+  text-align: end;
+}
+
+.h30{
+  height: 30%;
+}
+
+
+
+/* NAVIGATION */
+
+nav{
+  height: 100px;
+  width: 98vw;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.navButtons{
+  padding: 20px;
+  width: 180px;
+  background-color: cornflowerblue;
+  color: rgb(248, 222, 155);
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  margin: 10px;
+}
+.navButtons:hover{
+  background-color: rgb(22, 89, 212);
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+/* ASIDE */
+
+aside{
+  width: 0px;
+  height: 700px;
+  transition: 1s;
+  background-color: lightcyan;
+  
+  overflow: hidden;
+}
+
+
+
+/* STORY DIV */
+
+#photoDiv{
+  margin: 5px;
+}
+
+#photoDiv img{
+  height: 500px;
+  }
+
+.photoButtons{
+  padding: 10px;
+  width: 50%;
+  background-color: lightpink;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.photoButtons:hover{
+  transition: 0.5s;
+  background-color: rgb(250, 119, 139);
+  transform: scale(1.05);
+}
+
+.randomSideText{
+  margin: 5px;
+}
+
+/* STORY1 PHOTOS */
+
+/* 
+https://www.carscoops.com/wp-content/uploads/2019/05/8b0765b2-rwb-porsche-911-2.jpg
+
+https://www.forgestar.com/wp-content/uploads/2019/05/blue-rwb-widebody-porsche-993-deep-dish-wheels-forgestar-custom-l.jpg
+
+
+*/
+
+/* STORY2 PHOTOS */
+
+/* https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/singer_dls_exterior_location_012.jpg?itok=TvXs4e2J
+
+https://i.pinimg.com/originals/cf/6e/8e/cf6e8e9cd89c087f170aaa64c5439099.jpg */
+
+
+/* STORY3 PHOTOS */
+
+/* 
+https://cdn.motor1.com/images/mgl/E7e4q/s3/2018-ruf-scr.jpg
+
+https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2020/03/10133111/2020-RUF-SCR-10-1200x628.jpg
+ */
+
+#story3{
+  display: none;
+}
+
+#story2{
+  display: none;
+}
+
+
+/* FOOTER */
+
+footer{
+  width: 98vw;
+  height: 110px;
+  background-color: lightblue;
+  padding: 10px;
+  position: absolute;
+  transition: 0.8s;
+  bottom: 0;
+}
+
+.footerButton{
+  padding: 10px;
+  background-color: lightseagreen;
+  width: 50px;
+  text-align: center;
+  height: 25px;
+}
+
+.footerButton:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+#chevronDown{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
